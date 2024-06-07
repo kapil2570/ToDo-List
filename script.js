@@ -91,7 +91,6 @@ showBtn.addEventListener('click',(event) => {
         taskList.appendChild(listItem);
         listItem.classList.add = "list-item";
         deleteButton.classList.add = "delete-btn";
-        deleteButton.style.marginLeft = "27.5vw";
     }
     showList.style.display = "flex";
 })
