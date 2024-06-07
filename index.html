@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="head">
+        <h1>ToDo List</h1>
+    </div>
+
+    <div class="head-line">
+        <hr>
+    </div>
+
+    <div class="container">
+        <div class="no-task">
+            <h3>You don't have any task yet</h3>
+        </div>
+
+        <div class="container-line">
+            <hr>
+        </div>
+
+        <div class="add-task">
+            <p>Click + button to add a task</p>
+        </div>
+    </div>
+
+    <div class="add-container">
+        <div class="add-form">
+            <form id="myform">
+                <div>
+                    <label class="task-label" for="task">Enter the task :</label>
+                </div>
+                <div class="task-input">
+                    <input id="task" type="text">
+                    <button id="task-add" disabled>Add</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="add-message">
+            <h3>Task added successfully!</h3>
+        </div>
+    </div>
+
+    <div class="show-tasks">
+        <ul class="task-list">
+
+        </ul>
+    </div>
+
+    <div class="btn-container">
+        <button class="show-btn" disabled>My List</button>
+        <button class="big-btn" type="submit">+</button>
+        <button class="clear-btn" disabled>Clear List</button>
+    </div>
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
