@@ -110,7 +110,7 @@ button:disabled {
 .task-input button {
     height: 4.5vh;
     width: 3vw;
-    margin-left: 19.5vw;
+    margin-left: 3vw;
     border-radius: 10px;
     border-color: #ff7e5f;
 }
@@ -128,7 +128,7 @@ button:disabled {
     align-items: flex-start;
     margin: 5vh 0 10vh 32.5vw;
     max-height: 20vh;
-    max-width: 60vw;
+    max-width: 62vw;
     overflow-x: hidden;
     overflow-y: scroll;
 }
