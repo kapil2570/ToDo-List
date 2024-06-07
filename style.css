@@ -125,19 +125,24 @@ button:disabled {
 .show-tasks {
     display: none;
     /* justify-content: center; */
-    align-items: flex-start;
+    align-items: flex-start flex-end;
     margin: 5vh 0 10vh 32.5vw;
     max-height: 20vh;
-    max-width: 62vw;
+    max-width: 60vw;
     overflow-x: hidden;
     overflow-y: scroll;
 }
 
 .task-list {
     list-style-type: none;
+    /* padding: 0; */
 }
 
 .task-list li {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     font-size: 1.5rem;
     color: #2e2058;
     background-image: url(./list\ style\ image.png);
@@ -145,16 +150,16 @@ button:disabled {
     background-repeat: no-repeat;
     background-position: 0% 50%;
     padding-left: 1.5vw;
-    min-height: 1vw;
+    margin-bottom: 0.5rem;
+    padding-right: 5vw;
 }
 
 .delete-btn {
-    transform: translate(-50%);
+    position: absolute;
+    right: 0;
     border: none;
     background: none;
     cursor: pointer;
     font-size: 2vw;
-    padding: 0;
-    border-color: #ff7e5f;
-    border-radius: 5px;
+    margin-right: 1vw;
 }
