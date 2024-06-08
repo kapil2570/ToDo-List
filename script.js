@@ -84,6 +84,8 @@ showBtn.addEventListener('click',(event) => {
                 showBtn.disabled = true;
                 clearBtn.disabled = true;
                 showList.style.display = "none";
+                addContainer.style.display = "none";
+                container.style.display = "block";
             }
         })
 
