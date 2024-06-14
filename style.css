@@ -132,7 +132,7 @@ button:disabled {
     /* justify-content: center; */
     align-items: flex-start flex-end;
     margin: 5vh 0 10vh 32.5vw;
-    max-height: 20vh;
+    max-height: 30vh;
     max-width: 60vw;
     overflow-x: hidden;
     overflow-y: scroll;
